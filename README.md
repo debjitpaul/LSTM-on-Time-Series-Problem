@@ -1,13 +1,13 @@
 # LSTM-on-Time-Series-Problem
 
-##Dependencies
+## Dependencies
 ---
 python
 tensorflow
 keras
 ---
 
-##Run
+## Run
 ---
 python lstm_time_series.py --data_path 
 ---
