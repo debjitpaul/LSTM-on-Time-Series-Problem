@@ -1,5 +1,7 @@
 # LSTM-on-Time-Series-Problem
-##Data Source
+## Practise Code
+
+## Data Source
 Random Length Lumber Futures, Continuous Contract #1 (LB1) (Front Month)
 ###Description of Data
 Historical Futures Prices: Random Length Lumber Futures, Continuous Contract #1. Non-adjusted price based on spot-month continuous contract calculations. Raw data from CME.
