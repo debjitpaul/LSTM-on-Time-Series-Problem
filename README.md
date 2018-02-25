@@ -1,5 +1,6 @@
 # LSTM-on-Time-Series-Problem
 ## Practise Code
+Hands-on time-series data. It includes some pre-processing. Regression problem.
 
 ## Data Source
 Random Length Lumber Futures, Continuous Contract #1 (LB1) (Front Month)
