@@ -1,4 +1,4 @@
-__author__ = 'Debjit, Sreyasi, Soumya'
+__author__ = 'Debjit'
 """
 This class uses Long Short Term Memory Neural Network to solve a time-series problem (Regression Problem) 
 """
