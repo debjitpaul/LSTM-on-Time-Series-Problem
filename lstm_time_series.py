@@ -87,7 +87,7 @@ def data_preprocessing(path,look_back):
               @Output_type : Numpy array
            '''
    
-           dataframe = pandas.read_csv(path, usecols = [1,2,3,4,6,7,8], engine = 'python', skipfooter = 3)
+           dataframe = pandas.read_csv(path, usecols = [1,2,3,4,6,7,8], engine = 'python', skipfooter = 3) ##coloumns you want to chose
            dataframe = dataframe.iloc[::-1].reset_index(drop=True)
            dataset = dataframe.values
            dataset = dataset.astype('float32')
@@ -137,7 +137,7 @@ def _create_dataset(dataset, look_back):
 def main():
 
   parser = argparse.ArgumentParser()
-  parser.add_argument('--data_path',default='/home/debjit/Documents/Data/Lumber-futures.csv',help="data in csv format")
+  parser.add_argument('--data_path',default='/Data/Lumber-futures.csv',help="data in csv format")
   parser.add_argument('--look_back',default=3,help='how many rows you want to look back')
   args = parser.parse_args()
   
