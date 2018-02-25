@@ -18,5 +18,5 @@ keras
 
 ## Run
 ~~~
-python lstm_time_series.py --data_path 
+python lstm_time_series.py --data_path --look_back
 ~~~
